@@ -1,0 +1,66 @@
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 25px;
+    }
+
+    section, footer {
+        margin: 90px 0 0; 
+    }
+    
+    .flexContainerRow {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title {
+        display: none;
+    }
+
+    .titleSmall {
+        display: block;
+    }
+
+    .aboutSaoPaulo div {
+        div {
+            padding-left: 0; 
+        } 
+
+        img {
+            max-width: 300px;
+        }
+    }
+
+    .saoPauloIs {
+        .elements {
+            margin: 0 0 70px;
+
+            &:last-child {
+                margin: 0;
+            }
+
+            button {
+                margin-bottom: 0;
+            }
+        }
+
+
+        
+    }
+
+    .places{
+        .boxImage {
+            width: 100%;
+            height: 200px;
+            padding: 0;
+
+            &:hover > .boxText {
+                left: 0;
+            }
+        }
+
+        .boxText {
+            left: -100%;
+        }
+    }
+}

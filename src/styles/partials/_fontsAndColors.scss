@@ -1,0 +1,80 @@
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #909090;
+    line-height: 1.6;
+}
+
+p {
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Dosis', sans-serif;
+}   
+
+h4 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 300px;
+    color: #385461;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+hr {
+    margin: 0 auto;
+    width: 50%;
+    border-top: 1px solid #eeeeee;
+    color: #f13d57;
+    border-color: #f13d57;
+}
+
+.title, .boxText {
+    h1, h3 {
+        color: #ffffff;
+        background-color: #f13d57;
+        padding: 0 20px;
+    }    
+}
+
+button {
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #f13d57;
+    border: 2px solid #f13d57;
+    padding: 10px 30px;
+    opacity: 0.8;
+    text-transform: uppercase;
+    font-size: 14px; 
+    line-height: 1.8;
+    cursor: pointer;
+}
+
+.title, .titleSmall {
+    span {
+        font-style: italic;
+    }
+}
+
+footer {
+    background-color: #212121;
+
+    p, .fa {
+        color: #ffffff;
+        letter-spacing: 1.6px;
+        font-size: 18px;
+    }
+
+    a {
+        padding: 0 5px;
+    }
+}
+
+
+

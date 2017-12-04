@@ -1,0 +1,13 @@
+map:
+  build: .
+  env_file: .env
+  ports:
+    - "8080:80"
+  links:
+        - redis
+redis:
+    image: launcher.gcr.io/google/redis3
+    ports:
+        - "6379"
+    volumes:
+        - ./redis-data:/data

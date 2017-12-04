@@ -1,0 +1,435 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0; }
+
+article, aside, footer, header, nav, section {
+  display: block; }
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0; }
+
+figcaption, figure, main {
+  display: block; }
+
+figure {
+  margin: 1em 40px; }
+
+hr {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible; }
+
+pre {
+  font-family: monospace,monospace;
+  font-size: 1em; }
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects; }
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted; }
+
+b, strong {
+  font-weight: inherit; }
+
+b, strong {
+  font-weight: bolder; }
+
+code, kbd, samp {
+  font-family: monospace,monospace;
+  font-size: 1em; }
+
+dfn {
+  font-style: italic; }
+
+mark {
+  background-color: #ff0;
+  color: #000; }
+
+small {
+  font-size: 80%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -.25em; }
+
+sup {
+  top: -.5em; }
+
+audio, video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+img {
+  border-style: none; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0; }
+
+button, input {
+  overflow: visible; }
+
+button, select {
+  text-transform: none; }
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button; }
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+fieldset {
+  padding: .35em .75em .625em; }
+
+legend {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal; }
+
+progress {
+  display: inline-block;
+  vertical-align: baseline; }
+
+textarea {
+  overflow: auto; }
+
+[type=checkbox], [type=radio] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0; }
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto; }
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px; }
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit; }
+
+details, menu {
+  display: block; }
+
+summary {
+  display: list-item; }
+
+canvas {
+  display: inline-block; }
+
+template {
+  display: none; }
+
+[hidden] {
+  display: none; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.wrapper {
+  max-width: 1080px;
+  margin: 0 auto; }
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px; }
+
+section, footer {
+  margin: 120px 0 0; }
+
+h1, h3 {
+  padding: 0;
+  margin: 0; }
+
+h2, h4 {
+  padding: 20px;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+h2, h4, hr, .titleSmall, input[type="text"] {
+  text-align: center; }
+
+input[type="text"] {
+  padding: 20px;
+  margin: 20px;
+  width: 100%; }
+
+/* Position _______________*/
+header, .boxImage {
+  position: relative; }
+
+iframe, .title, .boxText {
+  position: absolute; }
+
+/* Flexbox _______________*/
+.flexContainerRow {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+
+.flexCenterRow {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.flexSpaceBetween {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.flexContainerColumn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.flexCenterColumn {
+  margin: auto; }
+
+.flexWrap {
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+/* Header _______________*/
+header {
+  height: 0;
+  padding: 0 0 52.65% 0; }
+
+iframe {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.title {
+  bottom: 60px;
+  left: 0; }
+
+/* Title Small _______________*/
+.titleSmall {
+  display: none; }
+
+/* About SaoPaulo _______________*/
+.aboutSaoPaulo div div {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0;
+  -ms-flex: 1 0;
+  flex: 1 0;
+  padding-left: 20px; }
+
+.aboutSaoPaulo div img {
+  max-width: 400px; }
+
+/* Sao Paulo is _______________*/
+.saoPauloIs .elements {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0;
+  -ms-flex: 1 0;
+  flex: 1 0;
+  text-align: center;
+  overflow: hidden; }
+  .saoPauloIs .elements button {
+    margin-bottom: 20px; }
+  .saoPauloIs .elements img {
+    max-width: 300px;
+    height: 220px; }
+
+.saoPauloIs .marginElements {
+  margin: 0 15px; }
+
+/* Places _______________*/
+.places .boxImage {
+  overflow: hidden;
+  width: 50%;
+  height: 280px;
+  padding: 20px; }
+  .places .boxImage:nth-child(odd) {
+    padding-right: 0; }
+  .places .boxImage:hover > .boxText {
+    display: block;
+    -webkit-transition: left 1s;
+    -o-transition: left 1s;
+    transition: left 1s;
+    bottom: 20px;
+    left: 20px;
+    z-index: 9; }
+  .places .boxImage img {
+    width: 100%; }
+
+.places .boxText {
+  bottom: 20px;
+  left: -100%;
+  -webkit-transition: left 1s;
+  -o-transition: left 1s;
+  transition: left 1s; }
+
+#map {
+  width: 100%;
+  height: 400px; }
+
+/* Footer _______________*/
+footer img {
+  width: 100%; }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 25px; }
+  section, footer {
+    margin: 90px 0 0; }
+  .flexContainerRow {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .title {
+    display: none; }
+  .titleSmall {
+    display: block; }
+  .aboutSaoPaulo div div {
+    padding-left: 0; }
+  .aboutSaoPaulo div img {
+    max-width: 300px; }
+  .saoPauloIs .elements {
+    margin: 0 0 70px; }
+    .saoPauloIs .elements:last-child {
+      margin: 0; }
+    .saoPauloIs .elements button {
+      margin-bottom: 0; }
+  .places .boxImage {
+    width: 100%;
+    height: 200px;
+    padding: 0; }
+    .places .boxImage:hover > .boxText {
+      left: 0; }
+  .places .boxText {
+    left: -100%; } }
+
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #909090;
+  line-height: 1.6; }
+
+p {
+  font-size: 14px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Dosis', sans-serif; }
+
+h4 {
+  font-size: 32px; }
+
+h2 {
+  font-size: 40px;
+  font-weight: 300px;
+  color: #385461; }
+
+h3 {
+  font-size: 18px; }
+
+hr {
+  margin: 0 auto;
+  width: 50%;
+  border-top: 1px solid #eeeeee;
+  color: #f13d57;
+  border-color: #f13d57; }
+
+.title h1, .title h3, .boxText h1, .boxText h3 {
+  color: #ffffff;
+  background-color: #f13d57;
+  padding: 0 20px; }
+
+button {
+  font-weight: bold;
+  background-color: #ffffff;
+  color: #f13d57;
+  border: 2px solid #f13d57;
+  padding: 10px 30px;
+  opacity: 0.8;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.8;
+  cursor: pointer; }
+
+.title span, .titleSmall span {
+  font-style: italic; }
+
+footer {
+  background-color: #212121; }
+  footer p, footer .fa {
+    color: #ffffff;
+    letter-spacing: 1.6px;
+    font-size: 18px; }
+  footer a {
+    padding: 0 5px; }

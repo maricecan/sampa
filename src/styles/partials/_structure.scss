@@ -1,0 +1,184 @@
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;    
+}
+
+section, footer {
+    margin: 120px 0 0; 
+}
+
+h1, h3 {
+    padding: 0;
+    margin: 0;
+}
+
+h2, h4 {
+    padding: 20px;
+    margin: 0;
+} 
+
+a {
+    text-decoration: none;
+}
+
+h2, h4, hr, .titleSmall, input[type="text"] {
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+}
+
+/* Position _______________*/
+
+header, .boxImage {
+    position: relative;
+}
+
+iframe, .title, .boxText {
+    position: absolute;
+}
+
+/* Flexbox _______________*/
+
+.flexContainerRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexCenterRow {
+    align-items: center;
+}
+
+.flexSpaceBetween {
+    justify-content: space-between;
+}
+
+.flexContainerColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexCenterColumn {
+    margin: auto;
+}
+
+.flexWrap {
+    flex-wrap: wrap;
+}
+
+/* Header _______________*/
+
+header {
+    height: 0;
+    padding: 0 0 52.65% 0;
+} 
+
+iframe {
+    background-color: #f2f2f2;
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+} 
+
+.title {
+    bottom: 60px;
+    left: 0;
+}
+
+/* Title Small _______________*/
+
+.titleSmall {
+    display: none;
+}
+
+/* About SaoPaulo _______________*/
+
+.aboutSaoPaulo div {
+    div {
+        flex: 1 0;
+        padding-left: 20px; 
+    } 
+
+    img {
+        max-width: 400px;
+    }
+}
+
+/* Sao Paulo is _______________*/
+
+.saoPauloIs {
+    .elements {
+        flex: 1 0;
+        text-align: center;
+        overflow: hidden;   
+
+        button {
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 300px;
+            height: 220px;
+        }
+
+    }
+
+    .marginElements {
+        margin: 0 15px;
+    }
+
+}
+
+/* Places _______________*/
+
+.places{
+
+    .boxImage{
+        overflow: hidden;
+        width: 50%;
+        height: 280px;
+        padding: 20px;
+
+        &:nth-child(odd) {
+            padding-right: 0;    
+        }
+
+        &:hover > .boxText {
+            display: block;
+            transition: left 1s;
+            bottom: 20px;
+            left: 20px;
+            z-index: 9;
+        }
+
+        img {
+            width: 100%;
+        }
+    }    
+
+    .boxText {
+        bottom: 20px;
+        left: -100%;
+        transition: left 1s;
+    }
+    
+}
+
+#map {
+    width: 100%;
+    height: 400px;  
+}
+
+
+/* Footer _______________*/
+
+footer img {
+    width: 100%;
+}

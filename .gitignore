@@ -1,0 +1,6 @@
+.DS_Store
+.env
+.env.prod
+!.env.dist
+redis-data/dump.rdb
+!.redis-data/.gitkeep
